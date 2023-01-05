@@ -1,0 +1,102 @@
+.navbar {
+	min-height: 100px;
+}
+
+#navCenter {
+	margin: auto;
+}
+
+#navRight {
+	width: 278px;
+}
+
+.nav-item {
+	max-width: 120px;
+	max-height: 100px;
+	margin: 0px 3px;
+}
+
+#logobtn {
+	font-size: 1.5rem;
+}
+
+label {
+	margin-bottom: 0rem;
+}
+
+.navbar-expand-lg .navbar-collapse .nav-item {
+	display: flex;
+}
+
+@media (min-width: 1072px) {
+	.navbar-expand-custom {
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+	}
+	.navbar-expand-custom .navbar-nav {
+		flex-direction: row;
+	}
+	.navbar-expand-custom .dropdown-menu {
+		position: absolute;
+	}
+	.navbar-expand-custom .nav-link {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+	.navbar-expand-custom > .container {
+		flex-wrap: nowrap;
+	}
+	.navbar-expand-custom .navbar-collapse {
+		display: flex !important;
+		flex-basis: auto;
+	}
+	.navbar-expand-custom .navbar-toggler {
+		display: none;
+	}
+}
+
+/* Toggle */
+
+.toggletext {
+	color: #0b5fff;
+	font-size: 14px;
+	margin: 0px 30px 5px 10px;
+	font-weight: 400;
+}
+
+.toggle-switch-bar .toggle-switch-handle {
+	text-transform: capitalize;
+}
+
+.toggletext {
+	color: #0b5fff;
+	font-size: 14px;
+	margin: 0px 30px 5px 10px;
+	font-weight: 400;
+}
+
+.toggle-switch-bar .toggle-switch-handle {
+	text-transform: capitalize;
+}
+
+/* Responsive Toggle */
+
+.toggle-switch-check:empty ~ .toggle-switch-bar::before {
+	height: 32px;
+	width: 60px;
+}
+
+@media (max-width: 767.98px) {
+	.toggle-switch-check:empty ~ .toggle-switch-bar::after {
+		height: 24px;
+		width: 24px;
+	}
+	.toggle-switch-check {
+		height: 32px;
+		width: 60px;
+	}
+	.toggle-switch-check:empty ~ .toggle-switch-bar .toggle-switch-handle::after {
+		margin-left: 68px;
+	}
+}
