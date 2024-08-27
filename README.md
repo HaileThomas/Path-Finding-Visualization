@@ -125,6 +125,6 @@ Here are some feature I would have liked to add.
 
 If you have any questions about the project you can reach out to me via email or GitHub with the information below.
 
-> Email: thomash23@lakesideschool.org
+> Email: tghaile@stanford.edu
 
 > GitHub: [HaileThomas](https://github.com/HaileThomas)
